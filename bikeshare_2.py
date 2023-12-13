@@ -27,7 +27,9 @@ def get_filters():
         print('{} is not a valid month'.format(month))
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
-
+    day = input('Enter a day of week from Monday to Sunday to filter data by day, or "No" to keep all days').title()
+    while not day in ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday', 'No']:
+        print('{} is not a valid day'.format(day))
 
     print('-'*40)
     return city, month, day
