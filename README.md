@@ -7,7 +7,7 @@ Include the date you created this project and README file.
 Programming for Data Science with R and Python
 
 ### Description
-Describe what your project is about and what it does
+In this project, I will use data provided by <a href="https://motivateco.com">Motivate</a>, a bike share system provider for many major cities in the United States, to uncover bike share usage patterns and compare the system usage between three large cities: Chicago, New York City, and Washington, DC.
 
 ### Files used
 Include the files used
