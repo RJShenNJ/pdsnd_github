@@ -19,10 +19,12 @@ def get_filters():
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     city = input('Enter a city name to filter the data for chicago, new york city or washington?').lower()
     while not city in  ['chicago', 'new york city', 'washington']:
-        print('{} is not a vaid city'.format(city))
+        print('{} is not a valid city'.format(city))
 
     # get user input for month (all, january, february, ... , june)
-
+    month = input('Enter a month from January to June to filter data by month, or "No" to keep all months').title()
+    while not month in ['January', 'February', 'March', 'April', 'May', 'June', 'No']:
+        print('{} is not a valid month'.format(month))
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
 
